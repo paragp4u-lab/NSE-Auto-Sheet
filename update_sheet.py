@@ -24,7 +24,7 @@ spreadsheet_id = "1sesDs5UxdK-b8Fk5cQJKY8oH_1NQCBoUbiz4nOWk9LQ"
 
 # दोनों शीट्स को कनेक्ट करना
 try:
-    ws_volume = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")YouTube Channel
+    ws_volume = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")
     ws_turnover = client.open_by_key(spreadsheet_id).worksheet("Top 250 Turnover")
 except Exception as e:
     print(f"Sheet Connection Error: {e}")
