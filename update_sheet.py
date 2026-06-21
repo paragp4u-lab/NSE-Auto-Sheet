@@ -44,7 +44,7 @@ client = gspread.authorize(creds)
 
 spreadsheet_id = "1sesDs5UxdK-b8Fk5cQJKY8oH_1NQCBoUbiz4nOWk9LQ" 
 
-worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")YouTube Channel
+worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")
 
 
 
